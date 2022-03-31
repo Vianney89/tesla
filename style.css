@@ -13,10 +13,16 @@ body {
 .container{
     width: auto;
     height: auto;
-}
-   
+}   
 .container>div {
     scroll-snap-align: start;
+}
+} .upContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: auto;
+    /* position: fixed; */
 }
 .mainContainer{
     background: url('../tesla/images/lhd-model-3-social.png') no-repeat;
@@ -31,15 +37,16 @@ body {
     width:120px;
     height:12px;
     /* position: absolute;
-    left: 50px;
-    top: 20px; */
+    /* left: 50px; */
+    top: 3px;
     position: fixed;
 }
 .modelIndex {
     left:370px;
-    top: 15px; 
+    top: 3px; 
     width:47%;
-    padding-left: 70px;
+    padding-left: 200px;
+    position: fixed;
 }    
 .modelIndex a {
     padding: 25px;
@@ -52,13 +59,13 @@ body {
     border-radius: 25px;
 
 }
-/* .rightIndex {
-    width: 30%; */
-     /* position: absolute;
+ .rightIndex {
+    width: 30%;
     right:-130px;
-    top: 15px;
+    top: 3px;
     position: fixed;
-} */ 
+
+} 
 
 .rightIndex a {
     padding: 10px;
@@ -79,7 +86,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding-top: 50px; */
+    padding-top: 50px; 
     
 }
 .bodyContainer h1 {
@@ -103,12 +110,12 @@ body {
     text-align: center;
     display: flex;
     font-family: gotham-book;
-    font-size: .8em;
+    font-size: .9em;
     justify-content: center;
     position: absolute;
     bottom: 50px;
     justify-content: space-evenly;
-    right:385px;
+    right:330px;
     position: fixed;
 }
 .bCL {
@@ -135,7 +142,7 @@ body {
     right: 60%;
     bottom: 10%;
 }
-.bR a {
+.bCR a {
     position:relative;
     top:10px;
 }
@@ -147,6 +154,31 @@ body {
     height: 100vh;
     scroll-snap-align: center;
 }
+.bodyContainer2 {
+    font-family: gotham-book, serif; 
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; 
+}
+.bodyContainer2 h1 {
+    font-size: 2.55em;
+    opacity: .7;      
+}
+.bodyContainer2 a {
+    text-decoration: underline;
+}
+.bodyContainer2 p {
+    opacity: .7;
+    font-size: .9em;
+    margin-top: -20px;
+}
+.bodyContainer2 a:hover {
+    text-decoration: underline 2.5px;
+    opacity: 1;
+}
 .mainContainer3 {
     background-size: 100% 100%;
     background: url('../tesla/images/ModelX.jpg') no-repeat;
@@ -155,6 +187,31 @@ body {
     height: 100vh;
     scroll-snap-align: center;
 }
+.bodyContainer3 {
+    font-family: gotham-book, serif; 
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; 
+}
+.bodyContainer3 h1 {
+    font-size: 2.55em;
+    opacity: .7;
+}
+.bodyContainer3 a {
+    text-decoration: underline;
+}
+.bodyContainer3 p {
+    opacity: .7;
+    font-size: .9em;
+    margin-top: -20px;
+}
+.bodyContainer3 a:hover {
+    text-decoration: underline 2.5px;
+    opacity: 1;
+}    
 .mainContainer4 {
     background-size: 100% 100%;
     background: url('../tesla/images/Telsa-Model-Y-2021-002.jpg') no-repeat;
@@ -163,6 +220,31 @@ body {
     height: 100vh;
     scroll-snap-align: center;
 }
+.bodyContainer4 {
+    font-family: gotham-book, serif; 
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; 
+}
+.bodyContainer4 h1 {
+    font-size: 2.55em;
+    opacity: .7;
+}
+.bodyContainer4 a {
+    text-decoration: underline;
+}
+.bodyContainer4 p {
+    opacity: .7;
+    font-size: .9em;
+    margin-top: -20px;
+}
+.bodyContainer4 a:hover {
+    text-decoration: underline 2.5px;
+    opacity: 1;
+}    
 .mainContainer5 {
     background-size: 100% 100%;
     background: url('../tesla/images/SolarPannels.jpg') no-repeat;
@@ -172,6 +254,31 @@ body {
     width: 100%;
     scroll-snap-align: center;
 }
+.bodyContainer5 {
+    font-family: gotham-book, serif; 
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; 
+}
+.bodyContainer5 h1 {
+    font-size: 2.55em;
+    opacity: .7;
+}
+.bodyContainer5 a {
+    text-decoration: underline;
+}
+.bodyContainer5 p {
+    opacity: .7;
+    font-size: .9em;
+    margin-top: -20px;
+}
+.bodyContainer5 a:hover {
+    text-decoration: underline 2.5px;
+    opacity: 1;
+}    
 .mainContainer6 {
     background-size: 100% 100%;
     background: url('./images/tesla-solar-glass-temoignage.jpg') no-repeat;
@@ -180,17 +287,61 @@ body {
     height: 100vh;
     scroll-snap-align: center;
 }
+.bodyContainer6 {
+    font-family: gotham-book, serif; 
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; 
+}
+.bodyContainer6 h1 {
+    font-size: 2.55em;
+    opacity: .7;
+}
+.bodyContainer6 a {
+    text-decoration: underline;
+}
+.bodyContainer6 p {
+    opacity: .7;
+    font-size: .9em;
+    margin-top: -20px;
+}
+.bodyContainer6 a:hover {
+    text-decoration: underline 2.5px;
+    opacity: 1;
+}    
 .mainContainer7 {
     background-size: 100% 100%;
     background: url('../tesla/images/borne-tesla-gen-3-3.jpg') no-repeat;
-    background-size: cover;
-    background-position: 0% 55%;
+    background-size: contain;
+    background-position: 50% 50%;
     height: 100vh;
     scroll-snap-align: center;
-} .upContainer {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    width: auto;
-    /* position: fixed; */
 }
+.bodyContainer7 {
+    font-family: gotham-book, serif; 
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; 
+}
+.bodyContainer7 h1 {
+    font-size: 2.55em;
+    opacity: .7;
+}
+.bodyContainer7 a {
+    text-decoration: underline;
+}
+.bodyContainer7 p {
+    opacity: .7;
+    font-size: .9em;
+    margin-top: -20px;
+}
+.bodyContainer7 a:hover {
+    text-decoration: underline 2.5px;
+    opacity: 1;
+}    
